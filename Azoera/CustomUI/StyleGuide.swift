@@ -7,6 +7,25 @@
 //
 
 import UIKit
+
+extension UIView {
+    
+    //Create these functions once to access them throughout the whole project with dot syntax
+    func addACornerRadius(_ radius: CGFloat = 4) {
+        self.layer.cornerRadius = radius
+    }
+    
+    func addBorder(width: CGFloat = 1, color: UIColor = UIColor.borderHighlightGray) {
+        self.layer.borderColor = color.cgColor
+        self.layer.borderWidth = width
+    }
+    
+    func rotate(by radians: CGFloat = (-CGFloat.pi/2)) {
+        self.transform = CGAffineTransform(rotationAngle: radians)
+    }
+    
+}
+
 struct FontNames {
     static let latoBold = "Lato-Bold"
     static let latoRegular = "Lato-Regular"

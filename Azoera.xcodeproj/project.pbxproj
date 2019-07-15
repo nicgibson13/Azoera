@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C5D543522DCF29000FE9752 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5D543422DCF29000FE9752 /* WelcomeViewController.swift */; };
+		7C5D543822DCF9A800FE9752 /* AzoeraTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5D543722DCF9A800FE9752 /* AzoeraTextField.swift */; };
 		F73DEEA4223AF4550023C6C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73DEEA3223AF4550023C6C6 /* AppDelegate.swift */; };
 		F73DEEA9223AF4550023C6C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F73DEEA7223AF4550023C6C6 /* Main.storyboard */; };
 		F73DEEAB223AF4570023C6C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F73DEEAA223AF4570023C6C6 /* Assets.xcassets */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7C5D543422DCF29000FE9752 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		7C5D543722DCF9A800FE9752 /* AzoeraTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AzoeraTextField.swift; sourceTree = "<group>"; };
 		F73DEEA0223AF4550023C6C6 /* Azoera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Azoera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F73DEEA3223AF4550023C6C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F73DEEA8223AF4550023C6C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -43,6 +47,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7C5D543622DCF29C00FE9752 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7C5D543422DCF29000FE9752 /* WelcomeViewController.swift */,
+				7C5D543922DCF9B800FE9752 /* Custom Views */,
+				7C5D543722DCF9A800FE9752 /* AzoeraTextField.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		7C5D543922DCF9B800FE9752 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
 		F73DEE97223AF4550023C6C6 = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +83,7 @@
 		F73DEEA2223AF4550023C6C6 /* Azoera */ = {
 			isa = PBXGroup;
 			children = (
+				7C5D543622DCF29C00FE9752 /* View Controllers */,
 				F763B96A22526928005697E5 /* CustomUI */,
 				F763B968225268F2005697E5 /* Resources */,
 			);
@@ -175,8 +197,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C5D543522DCF29000FE9752 /* WelcomeViewController.swift in Sources */,
 				F73DEEA4223AF4550023C6C6 /* AppDelegate.swift in Sources */,
 				F763B96C2252693E005697E5 /* StyleGuide.swift in Sources */,
+				7C5D543822DCF9A800FE9752 /* AzoeraTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
